@@ -4,16 +4,16 @@ import { IDataObject, INodeExecutionData, INodeType, INodeTypeDescription } from
 
 import { OptionsWithUri } from 'request';
 
-export class Dexscreen implements INodeType {
+export class Dexscreener implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Dexscreen',
-		name: 'dexscreen',
-		icon: 'file:dexscreen.svg',
+		displayName: 'Dexscreener',
+		name: 'dexscreener',
+		icon: 'file:dexscreener.png',
 		group: ['transform'],
 		version: 1,
-		description: 'Get realtime token price from dexscreen',
+		description: 'Get realtime token price from dexscreener',
 		defaults: {
-			name: 'Dexscreen',
+			name: 'Dexscreener',
 		},
 		inputs: ['main'],
 		outputs: ['main'],

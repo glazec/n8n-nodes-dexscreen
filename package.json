@@ -1,7 +1,7 @@
 {
-	"name": "n8n-nodes-friendgrid",
+	"name": "n8n-nodes-dexscreener",
 	"version": "0.1.0",
-	"description": "n8n node to create contacts in SendGrid",
+	"description": "n8n node to get realtime price from dexscreener",
 	"keywords": [
 		"n8n-community-node-package"
 	],
@@ -29,16 +29,8 @@
 	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,
-		"credentials": [
-			"dist/credentials/FriendGridApi.credentials.js",
-			"dist/credentials/ExampleCredentialsApi.credentials.js",
-			"dist/credentials/HttpBinApi.credentials.js"
-		],
 		"nodes": [
-			"dist/nodes/FriendGrid/FriendGrid.node.js",
-			"dist/nodes/HttpBin/HttpBin.node.js",
-			"dist/nodes/ExampleNode/ExampleNode.node.js",
-			"dist/nodes/Dexscreen/Dexscreen.node.js"
+			"dist/nodes/Dexscreen/Dexscreener.node.js"
 		]
 	},
 	"devDependencies": {
