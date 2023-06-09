@@ -8,7 +8,7 @@ export class Dexscreener implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Dexscreener',
 		name: 'dexscreener',
-		icon: 'file:dexscreener.png',
+		icon: 'file:dexscreener.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Get realtime token price from dexscreener',
@@ -34,7 +34,7 @@ export class Dexscreener implements INodeType {
 			// 	noDataExpression: true,
 			// },
 			{
-				displayName: 'Token address',
+				displayName: 'Token Address',
 				name: 'tokenAddress',
 				type: 'string',
 				required: true,
