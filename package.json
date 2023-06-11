@@ -22,7 +22,8 @@
 		"format": "prettier nodes --write",
 		"lint": "eslint nodes package.json",
 		"lintfix": "eslint nodes  package.json --fix",
-		"prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes package.json"
+		"prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes package.json",
+		"test": "npm run build;npm link;cd ~/.n8n/nodes/;npm link n8n-nodes-OneInch;n8n start"
 	},
 	"files": [
 		"dist"
